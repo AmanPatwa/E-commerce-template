@@ -46,6 +46,7 @@ body, ul, li, p, a, label, input, div {
 
 /* Hero Carousel */
 #kev-mo-zay-hero-carousel { background: #efefef !important;}
+#kev-zay-hero-carousel { background: #efefef !important;}
 /* Accordion */
 .kev-accordion a { color: #000;}
 .kev-accordion a:hover { color: #333d4a;}
@@ -127,7 +128,7 @@ body, ul, li, p, a, label, input, div {
 /*
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
-*/
+*/  
 /* Small devices (landscape phones, 576px and up)*/
 .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {
   font-size: 12px !important;
@@ -150,6 +151,7 @@ body, ul, li, p, a, label, input, div {
 @media (min-width: 992px) {
   #kev_main_nav .navbar-nav {max-width: 550px;}
   #kev-mo-zay-hero-carousel .carousel-item {min-height: 30rem !important;}
+  #kev-zay-hero-carousel .carousel-item {min-height: 30rem !important;}
   .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {font-size: 18px !important;}
   .product-wap .product-color-dot {
     width: 12px;
