@@ -38,17 +38,17 @@ body, ul, li, p, a, label, input, div {
   color: #fff;
 }
 /* Nav */
-#templatemo_nav_top { min-height: 40px;}
-#templatemo_nav_top * { font-size: .9em !important;}
-#templatemo_main_nav a { color: #212934;}
-#templatemo_main_nav a:hover { color: rgb(105, 187, 180)}
-#templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
+#kev_nav_top { min-height: 40px;}
+#kev_nav_top * { font-size: .9em !important;}
+#kev_main_nav a { color: #212934;}
+#kev_main_nav a:hover { color: rgb(105, 187, 180)}
+#kev_main_nav .navbar .nav-icon { margin-right: 20px;}
 
 /* Hero Carousel */
-#template-mo-zay-hero-carousel { background: #efefef !important;}
+#kev-zay-hero-carousel { background: #efefef !important;}
 /* Accordion */
-.templatemo-accordion a { color: #000;}
-.templatemo-accordion a:hover { color: #333d4a;}
+.kev-accordion a { color: #000;}
+.kev-accordion a:hover { color: #333d4a;}
 /* Shop */
 .shop-top-menu a:hover { color: #69bb7e !important;}
 /* Product */
@@ -85,12 +85,12 @@ body, ul, li, p, a, label, input, div {
   opacity: 1;
 }
 /* Carousel Hero */
-#template-mo-zay-hero-carousel .carousel-indicators li {
+#kev-zay-hero-carousel .carousel-indicators li {
   margin-top: -50px;
   background-color: #59ab6e;
 }
-#template-mo-zay-hero-carousel .carousel-control-next i,
-#template-mo-zay-hero-carousel .carousel-control-prev i {
+#kev-zay-hero-carousel .carousel-control-next i,
+#kev-zay-hero-carousel .carousel-control-prev i {
   color: #59ab6e !important;
   font-size: 2.8em !important;
 }
@@ -127,7 +127,7 @@ body, ul, li, p, a, label, input, div {
 /*
 // Extra small devices (portrait phones, less than 576px)
 // No media query since this is the default in Bootstrap
-*/
+*/  
 /* Small devices (landscape phones, 576px and up)*/
 .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {
   font-size: 12px !important;
@@ -143,13 +143,13 @@ body, ul, li, p, a, label, input, div {
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
-  #templatemo_main_nav .navbar-nav {max-width: 450px;}
+  #kev_main_nav .navbar-nav {max-width: 450px;}
  }
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
-  #templatemo_main_nav .navbar-nav {max-width: 550px;}
-  #template-mo-zay-hero-carousel .carousel-item {min-height: 30rem !important;}
+  #kev_main_nav .navbar-nav {max-width: 550px;}
+  #kev-zay-hero-carousel .carousel-item {min-height: 30rem !important;}
   .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {font-size: 18px !important;}
   .product-wap .product-color-dot {
     width: 12px;
